@@ -39,18 +39,18 @@ h2{
 
 header h1{
     font-size: 4rem;
+    color: rgb(14, 145, 233);
+    text-align: center;
     
 }
 
-header h1::first-letter{
-    color: rgb(14, 145, 233);
-}
 
 #photo img{
     display: flexbox;
     margin-right: 33vh;
     width: 400px;
     height: 470px;
+    border-radius: 5%;
 }
 
 p#socialnetworks{
@@ -93,6 +93,8 @@ nav{
     left: 0;
     width: 100%;
     background: rgb(0, 0, 0);
+    /*border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;*/
 }
 
 nav ul{
@@ -122,9 +124,6 @@ section h2{
     font-size: 200%;
 }
 
-#presentation{
-    
-}
 
 #presentation div{
     margin-top: 10vh;
@@ -141,6 +140,7 @@ section h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 
@@ -243,9 +243,16 @@ section h2{
     font-size: 20px;
 }
 
-#expe div>img{
+#expe div>img#mais{
     width: 260px;
     height: 400px;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
+#expe div>img#scb{
+    width: 175px;
+    height: 200px;
     margin-left: 40%;
     border-radius: 10px;
 }
@@ -253,10 +260,10 @@ section h2{
 #proj{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     margin: auto;
 }
-#projets div{
+#proj div{
     display: flexbox;
     border: solid rgb(14, 145, 233);
     background-color: whitesmoke;

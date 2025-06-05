@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE_14</title>
+    <link rel="stylesheet" type="text/css" href="../css/sae14.css">
+</head>
+<body>
+    <h1>Projet intégratif : Déploiement d'un réseau d'entreprise</h1>
+    <div>
+        <div>
+            <div>
+                <h3>Contexte : </h3>
+                <br>
+                <p>Ce travail est un projet de fin d'année réalisé en autonomie par groupe de 4. Ce projet a duré 2 semaines et demi.</p>
+            </div>
+            <div>
+                <h3> . </h3>
+                <img src="../images/schema.png" alt="">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h3>Objectif : </h3>
+                <br>
+                <p>L'objectif du projet est de répondre aux besoins en terme de réseau d'une entreprise. L'entreprise ayant besoin du déploiement d'un parc informatique pour ses employés, nous devons analyser le cahier des charges, définir une solution et la mettre en place. </p>
+                <p>Le cahier des charges est de mettre en place une infrastructure pour une entreprise comportant quelques postes clients et des serveurs permettant de centraliser les services de réseau.</p>
+                <p>Pour cela, nous devrons au minimum mettre en place un switch avec des VLANs, un routeur, un serveur DHCP et un point d'accès Wifi. Le réseau devra également contenir un serveur Windows avec Active Directory, un serveur linux et un serveur téléphonique.</p>
+                <p>Nous devrons également créer un site internet qui sera visible via un serveur Web qui présentera l'infrastructure et le travail effectué.</p>
+            </div>
+            <div>
+                <h3> . </h3>
+            </div>
+        </div>
+            <div>
+                <div>
+                    <h3>Travail réalisé</h3>
+                    <br>
+                    <p>Nous sommes actuellement en cours de réalisation du projet.</p>
+                    <p>Pour l'instant, nous avons étudié le cahier des charges de l'entreprise et établi une solution que nous allons proposer à l'entreprise.</p>
+                    <p>La solution que nous allons soumettre est visible sur le schéma ci-dessus (dans la partie "Contexte").</p>
+                    <p>Pour ma part, j'ai rédigé le document technique qui va être fourni à l'entreprise.</p>
+                    <p>Ce document technique contient en première partie la demande qui nous a été faite. En deuxième partie, j'explique la solution que nous avons choisi:<br> c'est à dire de diviser le réseau en 2, un réseau interne et une DMZ (zone démilitarisée). Dans le réseau interne seront situés les postes clients placés dans différents VLANs d'un switch.<br> Il y aura un serveur Windows comportant un Active Directory ainsi que le service DHCP afin d'attribuer dynamiquement les configurations réseaux aux postes clients.</p>
+                    <p>Pour la DMZ, il y aura un serveur linux comportant le service Web afin que la page Web puisse être accessible depuis l'extérieur. De plus, on installera le service DNS qui permettra aux postes client du reseau interne d'accèder à internet mais également aux clients externes au réseau d'accèder au serveur Web.</p>
+                    <p>Enfin, un routeur jouera le rôle de porte de sortie du réseau vers Internet. Pour cela, nous implémenterons le NAT afin que les postes clients obtiennent une adresse routable.</p>
+                    <p>Dans le troisième partie du document, je présente l'organisations des tâches à effectuer via un diagramme de Gantt.</p>
+                    <p>L'installation et la configuration de ce réseau seront effectuées dans les prochaines semaines.</p>
+                </div>
+                <div>
+                    <h3> . </h3>
+                    <img src="../images/doc.png" alt="" id="doc">
+                </div>
+        </div>
+            <div>
+                <div>
+                    <h3>Résultat : </h3>
+                    <br>
+                    <p>En cours de réalisation. </p>
+                </div>
+                <div>
+                    <h3> . </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <a href="../index.html#tel">Retourner à la page d'accueil</a>
+</body>
+</html>
