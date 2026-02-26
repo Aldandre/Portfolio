@@ -257,6 +257,13 @@ section h2{
     border-radius: 10px;
 }
 
+#expe div>img#bm{
+    width: 175px;
+    height: 175px;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
 #proj{
     display: flex;
     flex-direction: column;
